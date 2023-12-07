@@ -14,7 +14,6 @@ const clientes = [
   { id: 8, nome: "Cliente8", email: "cliente8@email.com" },
   { id: 9, nome: "Cliente9", email: "cliente9@email.com" },
   { id: 10, nome: "Cliente10", email: "cliente10@email.com" },
-  // Adicione mais clientes conforme necessário
 ];
 
 app.get("/api/clientes", (req: Request, res: Response) => {

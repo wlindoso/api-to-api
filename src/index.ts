@@ -1,3 +1,5 @@
+const lista_clientes = new Array();
+
 async function obterClientesDaAPI() {
   try {
     const response = await fetch("http://localhost:3000/api/clientes");
@@ -9,7 +11,6 @@ async function obterClientesDaAPI() {
   }
 }
 
-// Exemplo de uso assíncrono
 async function main() {
   try {
     const clientes = await obterClientesDaAPI();
